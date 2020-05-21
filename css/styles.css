@@ -3,3 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container{
+   border-bottom: black 1px solid;
+   padding: 1rem 0 0 0;
+
+}
+
+.table-image{
+    width: 500px;
+    margin: 0 auto;
+
+}
