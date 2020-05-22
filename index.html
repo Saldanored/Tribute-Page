@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/cosmo/bootstrap.min.css">
     <title>Diego Forlan</title>
 </head>
 <body>
@@ -21,18 +22,18 @@
               <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link 1</a>
+              <a class="nav-link" href="contacto.html">Contacto</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Link 2</a>
+                <a class="nav-link" href="#amigos">Amigos</a>
               </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Equipos
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Independiente</a>
-                <a class="dropdown-item" href="#">Manchester United</a>
+                <a class="dropdown-item" href="#tab" >Independiente</a>
+                <a class="dropdown-item" href="#tab">Manchester United</a>
               </div>
             </li>
           </ul>
@@ -42,8 +43,8 @@
           </form>
         </div>
       </nav>
-      <!-- ENCABEZADO-->
-      <div class="container">
+      <!-- HEADER -->
+      <div class="container border-bot">
         <h1>Diego Forlan </h1>
         <p>Diego Forlán Corazzo (Montevideo, 19 de mayo de 1979) es un exfutbolista y entrenador uruguayo. 
             Actualmente es el entrenador de Peñarol.
@@ -51,11 +52,11 @@
             Obtuvo dos Botas de Oro en las temporadas 2004-2005 y 2008-2009,4​ además del Balón de Oro al mejor jugador del Mundial 2010.5​6​ Es considerado uno de los mejores futbolistas de la historia de Uruguay, como también uno de los mejores futbolistas del Villarreal Club de Fútbol.</p>
       </div>
       <!-- TABLE -->
-      <div class="container" id="showcase">
-          <div class="row">
+      <div class="container border-bot" id="showcase">
+          <div class="row d-flex align-items-center">
             <div class="col-md-7"><img class="img-fluid table-image" src="img/img2.png" alt=""></div>
             <div class="col-md-5 table-responsive">
-                <table class="table ">
+                <table class="table table-bordered">
                     <thead>
                       <tr class="table-primary">
                         <th colspan="2" style="text-align:center""><H6>DATOS PERSONALES</H6></th>
@@ -119,6 +120,85 @@
 
       </div>
       <hr>
+
+    <!-- TABS -->
+    <div class="container margen-bot" id="tab">
+      <h2 class="center-text margen-bot">Trayectoria</h2>
+      <div class="row">
+        <div class="col-3">
+          <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="nav-link active" id="v-pills-independiente-tab" data-toggle="pill" href="#v-pills-independiente" role="tab" aria-controls="v-pills-independiente" aria-selected="true">Independiente</a>
+            <a class="nav-link" id="v-pills-manchester-tab" data-toggle="pill" href="#v-pills-manchester" role="tab" aria-controls="v-pills-manchester" aria-selected="false">Manchester United</a>
+            <a class="nav-link" id="v-pills-villareal-tab" data-toggle="pill" href="#v-pills-villareal" role="tab" aria-controls="v-pills-villareal" aria-selected="false">Villareal</a>
+         </div>
+        </div>
+        <div class="col-9">
+          <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-independiente" role="tabpanel" aria-labelledby="v-pills-independiente-tab">
+                <div class="media">
+                    <img class="mr-3 img-fluid" width=120 hegith=60 src="img/forlanindependiente.jpg" alt="Sample photo">
+                    <div class="media-body">
+                        <h4><strong>Independiente</strong></h4>
+                        <p>Tras jugar en las inferiores del Danubio Fútbol Club pasó a Independiente de Avellaneda, en Argentina,8​ club en el que recaló con 17 años.9​ Debutó en el primer equipo el 25 de octubre de 1997​.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="tab-pane fade" id="v-pills-manchester" role="tabpanel" aria-labelledby="v-pills-manchester-tab">
+              <div class="tab-pane fade show active" id="v-pills-manchester" role="tabpanel" aria-labelledby="v-pills-manchester-tab">
+                <div class="media">
+                    <img class="mr-3 img-fluid" width=120 hegith=60 src="img/forlanmanchesterunited.jpg" alt="Sample photo">
+                    <div class="media-body">
+                        <h4><strong>Manchester United</strong></h4>
+                        <p>Después de su paso por la Liga Argentina, fichó por el Manchester United de Inglaterra, en enero de 2002, por petición expresa de Sir Alex Ferguson.10​ Luego de un inicio irregular en su primera media temporada, en la que no pudo anotar goles, ganó la Premier League en la temporada 2002-0311​ y la FA Cup en 2003-04.11​ En su paso por el club inglés anotó 17 goles.11​</p>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+         
+         
+         
+         
+            <div class="tab-pane fade" id="v-pills-villareal" role="tabpanel" aria-labelledby="v-pills-villareal-tab">
+              <div class="media">
+                <img class="mr-3 img-fluid " width=120 hegith=60 src="img/forlanvillareal.jpg" alt="Sample photo">
+                <div class="media-body">
+                    <h4><strong>Villareal</strong></h4>
+                    <p>El 31 de agosto de 2004 fue transferido al Villarreal de España,12​ donde ganó el Trofeo Pichichi de la liga española y la Bota de Oro europea (que compartió con el jugador francés del Arsenal, Thierry Henry) al anotar 25 goles durante la temporada 2004-05,13​ contribuyendo decisivamente a que el Villarreal finalizara la Liga en tercer puesto.14​ En el mismo año que ganaron la Copa Intertoto de la UEFA, Diego Forlán se consagró además como el máximo goleador de la historia del Villarreal con 59 goles.</p>
+                </div>
+            </div>
+
+        </div>
+            </div>
+         </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- BUTTON GROUP-->
+    <div class="container" id="amigos">
+    
+      <div class="btn-group  d-flex align-items-center bg-secondary" role="group" aria-label="Ejemplo">
+        <h6 class="text-white">--Otros sitios web--</h6>
+        <input type="button" class="btn btn-secondary" onclick="location.href='https://messi.com/';" value="Messi" />
+        <input type="button" class="btn btn-secondary" onclick="location.href='https://www.neymarjr.com/';" value="Neymar" />        
+        <input type="button" class="btn btn-secondary" onclick="location.href='https://www.cristianoronaldo.com/#cr7';" value="Cristiano Ronaldo" />  
+       </div>
+    </div>
+
+
+
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container-fluid text-white d-flex justify-content-end align-items-center">
+        <p  style="padding:1rem;">Esta pagina ha sido desarrollada por @lorepipsum.uy</p>
+      </div>
+    </footer>
+
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

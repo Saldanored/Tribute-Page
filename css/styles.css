@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 *{
     padding: 0;
     margin: 0;
@@ -5,7 +8,6 @@
 }
 
 .container{
-   border-bottom: black 1px solid;
    padding: 1rem 0 0 0;
 
 }
@@ -15,3 +17,30 @@
     margin: 0 auto;
 
 }
+
+/* UTILITIES */
+.border-bot{
+    border-bottom: 1px solid black;
+
+}   
+.center-text{
+    text-align: center;
+}
+.margen-bot{
+    margin-bottom: 2rem;
+}
+/* FOOTER */
+
+
+
+
+
+
+footer div{
+    background-color:  #333;
+
+}
+
+
+
+
