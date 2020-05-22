@@ -125,7 +125,7 @@
     <div class="container margen-bot" id="tab">
       <h2 class="center-text margen-bot">Trayectoria</h2>
       <div class="row">
-        <div class="col-sm-2">
+        <div class="col-sm-3">
           <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
             <a class="nav-link active" id="v-pills-independiente-tab" data-toggle="pill" href="#v-pills-independiente" role="tab" aria-controls="v-pills-independiente" aria-selected="true">Independiente</a>
             <a class="nav-link" id="v-pills-manchester-tab" data-toggle="pill" href="#v-pills-manchester" role="tab" aria-controls="v-pills-manchester" aria-selected="false">Manchester United</a>
@@ -134,7 +134,7 @@
 
           </div>
         </div>
-        <div class="col-sm-10">
+        <div class="col-sm-9">
           <div class="tab-content" id="v-pills-tabContent">
             <div class="tab-pane fade show active" id="v-pills-independiente" role="tabpanel" aria-labelledby="v-pills-independiente-tab">
                 <div class="media">
@@ -191,6 +191,57 @@
       </div>
     </div>
 
+    <!-- DROPDOWN MENU LIST -->
+    <div class="container">      
+      <div class="row">
+          <div class="btn-group dropright">
+              <button class="btn btn-primary dropdown-toggle" type="button" id="dropdown2" data-toggle="dropdown">
+                Prensa
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="https://www.ovaciondigital.com.uy/">Ovación</a>
+                <a class="dropdown-item" href="https://www.marca.com/">Marca</a>
+              </div>
+            </div>            
+        </div>
+      </div>
+    </div>    
+
+
+    <!-- MODAL -->
+    <div class="container d-flex justify-content-end">
+      <!-- Button to Open the Modal -->
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+        Mensaje
+      </button>
+
+      <!-- The Modal -->
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Atención</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid ipsum repellendus aperiam doloribus natus totam nisi, fuga ut aut molestiae ea fugiat eum culpa velit quam ad cum? Maxime quo aliquam et molestias eius quibusdam blanditiis reprehenderit asperiores odit. Totam sit nostrum consequatur voluptatem inventore quos nesciunt est ex impedit, delectus cum repellendus quas quis soluta amet eos iste saepe!</p>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>    
+    
 
     <!-- BUTTON GROUP-->
     <div class="container" id="amigos">
@@ -209,7 +260,7 @@
     <!-- FOOTER -->
     <footer>
       <div class="container-fluid text-white d-flex justify-content-end align-items-center">
-        <p  style="padding:1rem;">Esta pagina ha sido desarrollada por @lorepipsum.uy</p>
+        <p>Esta pagina ha sido desarrollada por @lorepipsum.uy</p>
       </div>
     </footer>
 
