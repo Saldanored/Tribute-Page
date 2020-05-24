@@ -41,3 +41,14 @@ nav div ul li a:hover{
     border-bottom: solid 1px #fff;
 }
 
+.higlight-mrg{
+    opacity: 0.7;    
+}
+.higlight-mrg:hover{
+  /*   border-left: solid 2px #2780e3;*/
+     opacity: 1;
+}
+
+.active{
+    opacity: 1;
+}
