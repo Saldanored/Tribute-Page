@@ -37,4 +37,7 @@ footer div{
 
 
 
+nav div ul li a:hover{
+    border-bottom: solid 1px #fff;
+}
 
